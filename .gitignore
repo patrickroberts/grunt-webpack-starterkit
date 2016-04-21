@@ -1,0 +1,23 @@
+# Dependencies
+
+bower_components
+node_modules
+
+# Transpiled Output
+
+client
+
+# Node.js / NPM
+
+*.seed
+*.log
+*.out
+*.pid
+
+# Miscellaneous
+
+*~
+*#
+.DS_STORE
+.DS_Store
+.node_history

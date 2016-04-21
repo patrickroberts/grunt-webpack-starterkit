@@ -1,0 +1,6 @@
+{>"template" /}
+{<title}{status.code} Error{/title}
+{<body}
+  <h1>{status.code}: <small>{status.message}</small></h1>
+  <p>{error.message|s}</p>
+{/body}

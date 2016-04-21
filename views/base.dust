@@ -1,0 +1,13 @@
+{>"template" /}
+{<title}
+  {title}
+{/title}
+{<styles}
+  {>"partials/style" files=styles /}
+{/styles}
+{<body}
+  {>"layouts/{layout}" /}
+{/body}
+{<scripts}
+  {>"partials/script" files=scripts /}
+{/scripts}

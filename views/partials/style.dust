@@ -1,0 +1,7 @@
+{?file}
+  <link type="text/css" rel="stylesheet" href="{file}"/>
+{:else}
+  {#files}
+    <link type="text/css" rel="stylesheet" href="{.}"/>
+  {/files}
+{/file}

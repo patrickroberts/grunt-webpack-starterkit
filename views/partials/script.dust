@@ -1,0 +1,7 @@
+{?file}
+  <script type="text/javascript" src="{file}"></script>
+{:else}
+  {#files}
+    <script type="text/javascript" src="{.}"></script>
+  {/files}
+{/file}
