@@ -3,10 +3,6 @@
 bower_components
 node_modules
 
-# Transpiled Output
-
-client
-
 # Node.js / NPM
 
 *.seed
