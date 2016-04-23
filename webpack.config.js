@@ -5,7 +5,7 @@ let ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 let extractCSS = new ExtractTextPlugin('css/style.css');
 
-let PRODUCTION = process.env.PROD_ENV || false;
+let PRODUCTION = (process.env.NODE_ENV == 'production') || false;
 
 module.exports = {
   entry: {
