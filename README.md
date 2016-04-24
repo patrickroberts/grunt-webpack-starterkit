@@ -49,9 +49,17 @@ Then push your server and run the following remotely:
 $ node app
 ```
 
-### Options
+### Customization
 
 This starter kit leaves it to you to decide on any database, though it is recommended to place your schema and logic in `server/` so that Grunt can restart the server whenever changes are made in development mode. If that is not suitable then feel free to add your chosen folder name to `tasks/config/supervisor.js`.
+
+You may also use custom CSS, LESS, or SASS. All are supported options by the Webpack configuration of this starter kit. It is recommended to install them as npm modules or to place them in `src/`. If you have a LESS file located at `src/styles/app.less` for example, just add this line to `src/app.jsx`:
+
+```js
+require('./styles/app.less');
+```
+
+### Options
 
 For scaling Socket io, you may specify a remote [Redis] url via `process.env.REDIS_URL`. Otherwise, be aware that any Socket io state in memory might cause issues when scaling.
 

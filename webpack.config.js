@@ -48,6 +48,10 @@ module.exports = {
       compress: {
         warnings: false,
       },
+      mangle: true,
+      output: {
+        comments: false,
+      },
     }),
   ] : []),
 };
